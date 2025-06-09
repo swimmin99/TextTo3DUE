@@ -1,3 +1,5 @@
+![Image](https://github.com/user-attachments/assets/476dab87-46d2-49ae-9cf8-46252bbc87f9)
+![Image](https://github.com/user-attachments/assets/72f05887-a6d6-4b93-8310-88a5c37809ea)
 # TextTo3DUE
 Request and Receive 3d model from text prompt using shap e in UE environment
 TextTo3DUE는 OpenAI의 3D 모델 생성 AI인 Shap-E를 Unreal Engine 에디터 내에서 직접 사용할 수 있도록 만든 비공식 플러그인입니다. 텍스트 프롬프트만으로 3D 메시를 생성하고, 생성된 모델을 즉시 프로젝트에 활용해 보세요.
