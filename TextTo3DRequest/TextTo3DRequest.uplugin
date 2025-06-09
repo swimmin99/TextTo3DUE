@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "TextTo3DRequest",
+	"Description": "A simple implementation of sending text to 3d model request to shap e model",
+	"Category": "Other",
+	"CreatedBy": "DevHangHae",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.6.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "TextTo3DRequest",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
