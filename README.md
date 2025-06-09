@@ -27,17 +27,14 @@ NVIDIA GPU (CUDA 지원)
 
 ### 1단계: 로컬 모델 설치
 shap e를 로컬 환경에서 구동하도록 설치해야 합니다.
-local 버전을 쉽게 구현하기 위해서 다음의 리포지토리를 추천합니다.  
+local 버전을 쉽게 구현하기 위해서 다음의 리포지토리를 클론하여 설치합니다.
 https://github.com/kedzkiest/shap-e-local
-
 로컬 모델 설치 관련 사항은 위 리포지토리의 README를 참조하시기 바랍니다.
 
 ### 2단계: 플러그인 설치
-이 GitHub 저장소의 Releases 페이지에서 최신 버전의 플러그인 파일을 다운로드합니다.
-압축을 해제합니다.
+이 GitHub 저장소의 Releases 페이지에서 최신 버전의 플러그인 파일을 다운 혹은 클론합니다.
 플러그인 폴더 (ShapEForUE 등)를 Unreal Engine 프로젝트의 Plugins 폴더로 복사합니다.
 예: C:/Users/YourName/Documents/Unreal Projects/MyProject/Plugins/ShapEForUE
-Plugins 폴더가 없다면 새로 만드세요.
 프로젝트를 다시 시작하고, Edit > Plugins 메뉴에서 플러그인이 활성화되어 있는지 확인합니다.
 
 ### 3단계: 모델에 UE측 접속 인터페이스 삽입하기
@@ -50,7 +47,7 @@ run_shape.bat 파일을 더블 클릭하여 실행합니다.
 설정 창이 나타나면, 1단계에서 설정한 Anaconda의 정보를 입력합니다.
 Anaconda Base Path: Anaconda가 설치된 기본 경로 (예: C:\Users\YourName\anaconda3)
 Conda Environment Name: 1단계에서 생성한 가상 환경의 이름 (예: shape-env)
-설정이 완료되면 창을 닫습니다. 이제 플러그인을 사용할 준비가 되었습니다.
+설정이 완료되면 창을 닫습니다. 
 
 ### 4단계: 플러그인 사용 방법
 Unreal Engine 에디터에서 Tools > Shap-E Generator 메뉴를 선택하여 플러그인 창을 엽니다.
